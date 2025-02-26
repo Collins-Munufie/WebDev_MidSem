@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="../styles.css">
+
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li {
+    display: inline;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+.navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.container {
+    padding: 40px;
+    text-align: center;
+}
+.about, .portfolio, .contact {
+    margin: 50px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image {
+    height: 100px;
+    width: 100px;
+    /* margin: 20px auto; */
+    border-radius: 50px;
+    overflow: hidden;
+    /* float: left; */
+}
+img
+{
+    border-radius: 50px;
+    
+}
+    </style>
+   
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my projects, skills, and contact information below.</p>
+    </div>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+
+        <div class="image">
+          <img src="../colley.jpg" alt="" height="200px" width="200px" border-radius="100px">
+        </div>
+        <p>I am a passionate web developer with a focus on creating dynamic and responsive websites.</p>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>My Work</h2>
+        <p>Here are some of my recent projects:</p>
+        <ul>
+            <li>Project 1: E-commerce Website</li>
+            <li>Project 2: Blogging Platform</li>
+            <li>Project 3: Portfolio Website</li>
+            <li>Project 4: Graphic Designer</li>
+            <li>Project 5: A Cloud Practioner AWS</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p><a href="">collinsmunufie2018@gmail.com</a>c</p>
+        <p><a href="">LinkedIn: <linkedin class="com">
+        <in>
+        <collins></collins></a></p>
+    </section>
+</body>
+</html>
